@@ -23,7 +23,6 @@ else
 endif
 
 ifeq ($(UNAME), Linux)
-    DMLC_LDFLAGS += -lrt
 endif
 
 # handle fpic options
